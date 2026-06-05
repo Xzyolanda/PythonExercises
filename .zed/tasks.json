@@ -1,0 +1,9 @@
+[
+  {
+    "label": "Run all tests",
+    "command": "pytest",
+    "args": ["tests"],
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+  },
+]
