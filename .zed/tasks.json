@@ -6,4 +6,32 @@
     "use_new_terminal": true,
     "allow_concurrent_runs": false,
   },
+  {
+    "label": "Run tests/trees/test_balance",
+    "command": "pytest",
+    "args": ["-vv", "tests/trees/test_balance.py"],
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+  },
+  {
+    "label": "Run tests/trees/test_delete",
+    "command": "pytest",
+    "args": ["-vv", "tests/trees/test_delete.py"],
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+  },
+  {
+    "label": "Run tests/trees/test_insert",
+    "command": "pytest",
+    "args": ["-vv", "tests/trees/test_insert.py"],
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+  },
+  {
+    "label": "Run tests/trees/test_search",
+    "command": "pytest",
+    "args": ["-vv", "tests/trees/test_search.py"],
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+  },
 ]
